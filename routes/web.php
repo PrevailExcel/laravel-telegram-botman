@@ -14,8 +14,8 @@ use App\Http\Controllers\BotManController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::match(['get', 'post'],'/', [BotManController::class, 'handle'])->name('botman');
+Route::match(['get', 'post'],'/botman', [BotManController::class, 'handle'])->name('botman');
