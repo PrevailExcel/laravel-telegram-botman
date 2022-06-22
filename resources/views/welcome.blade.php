@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>How to install Botman Chatbot in Laravel? - codechief.org</title>
+        <title>Laravel Botman</title>
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
@@ -13,7 +13,7 @@
     <script>
 	    var botmanWidget = {
 	        aboutText: 'ssdsd',
-	        introMessage: "✋ Hi! I'm form codechief.org"
+	        introMessage: "✋ Hi! I'm testing the bot on web"
 	    };
     </script>
   

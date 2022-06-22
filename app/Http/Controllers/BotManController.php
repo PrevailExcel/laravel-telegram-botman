@@ -44,30 +44,3 @@ class BotManController extends Controller
         });
     }
 }
-
-
-//
-
-
-// use BotMan\BotMan\BotMan;
-// use BotMan\BotMan\BotManFactory;
-// use BotMan\BotMan\Drivers\DriverManager;
-// use Illuminate\Support\Facades\Route;
-
-
-// $botman = BotManFactory::create($config);
-
-//     $botman->listen();
-// });
-
-// $botman = BotManFactory::create($config);
-
-// $botman->hears('hello', function($bot){
-//     $bot->reply('Heyoo boss');
-// });
-
-// $botman->fallback(function($bot) {
-//     $bot->reply('I don\'t under this commant yet');
-// })
-
-// 
